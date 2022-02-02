@@ -1,0 +1,43 @@
+:root {
+    --header-height: 3.5rem;
+
+    --hue: 152;
+    --color-main: hsl(var(--hue), 24%, 32%);
+    --color-alt: hsl(var(--hue), 24%, 28%);
+    --color-light: hsl(var(--hue), 24%, 66%);
+    --color-lighten: hsl(var(--hue), 24%, 92%);
+    --color-title: hsl(var(--hue), 4%, 15%);
+    --color-text: hsl(var(--hue), 4%, 35%);
+    --color-body: hsl(var(--hue), 0%, 100%);
+    --color-white: #ffffff;
+
+    --font-big: 2rem;
+    --font-h1: 1.5rem;
+    --font-h2: 1.25rem;
+    --font-h3: 1rem;
+    --font-normal: 0.983rem;
+    --font-small: 0.813rem;
+    --font-smaller: 0.75rem;
+
+    --font-title: 'Poppins', sans-serif;
+    --font-text: 'DM Sans', sans-serif;
+
+    @media screen and (min-width: 968px) {
+        --font-big: 3.5rem;
+        --font-h1: 2.25rem;
+        --font-h2: 1.5rem;
+        --font-h3: 1.25rem;
+        --font-normal: 1rem;
+        --font-small: 0.875rem;
+        --font-smaller: 0.813rem;
+    }
+}
+
+/**-------- Theme Dark -------**/
+body.dark-theme {
+    --color-main-dark: hsl(var(--hue), 8%, 20%);
+    --color-title: hsl(var(--hue), 4%, 95%);
+    --color-text: hsl(var(--hue), 4%, 75%);
+    --color-body: hsl(var(--hue), 13%, 9%);
+    --color-white: hsl(var(--hue), 8%, 16%);
+}

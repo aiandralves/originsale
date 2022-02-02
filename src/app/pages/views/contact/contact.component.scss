@@ -1,0 +1,98 @@
+@import '../../../../assets/theme.scss';
+
+/**---------- Contact ---------**/
+.contact-container {
+    row-gap: 3.5rem;
+
+    .section-titile {
+        margin-bottom: 1.5rem;
+    }
+}
+
+.contact-data {
+    display: grid;
+    row-gap: 2rem;
+
+    h3 {
+        font-size: var(--font-normal);
+        font-weight: 500;
+        color: var(--color-text);
+        margin-bottom: 0.5rem;
+    }
+
+    span {
+        display: inline-flex;
+        align-items: center;
+        column-gap: 0.5rem;
+        color: var(--color-title);
+        font-weight: 500;
+    }
+
+    .contact-icon {
+        font-size: 1.25rem;
+    }
+}
+
+.contact-inputs {
+    display: grid;
+    row-gap: 2rem;
+    margin-bottom: 2.5rem;
+
+    .contact-content {
+        position: relative;
+        height: 3rem;
+        border-bottom: 1px solid var(--color-light);
+
+        .contact-input {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            padding: 1rem 1rem 1rem 0;
+            background: none;
+            color: var(--color-text);
+            border: none;
+            outline: none;
+            z-index: 1;
+
+            &:focus + .contact-label {
+                top: -0.75rem;
+                left: 0;
+                font-size: var(--font-smaller);
+                z-index: 10;
+            }
+
+            &:not(:placeholder-shown):not(:focus) + .contact-label {
+                top: -0.75rem;
+                left: 0;
+                font-size: var(--font-smaller);
+                z-index: 10;
+            }
+        }
+
+        .contact-label {
+            position: absolute;
+            top: 0.75rem;
+            width: 100%;
+            font-size: var(--font-small);
+            color: var(--color-light);
+            transition: 0.3s;
+        }
+    }
+
+    .contact-area {
+        height: 7rem;
+
+        & textarea {
+            resize: none !important;
+        }
+    }
+}
+
+/**---------- Media Screens ---------**/
+@media screen and (min-width: 767px) {
+    .contact-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

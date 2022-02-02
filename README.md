@@ -1,27 +1,104 @@
-# Originsale
+<h3 align="center"> 
+	🎉 Plantas vão melhorar sua qualidade de vida!  🎉
+</h3>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.15.
+<br>
 
-## Development server
+<div align="center">
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+![License](https://img.shields.io/badge/license-MIT-737CA1?style=flat-square)
+![Angular](https://img.shields.io/badge/web-Angular-c3002f?style=flat-square)
+![TypeScript](https://img.shields.io/badge/back-TypeScript-007ACC?style=flat-square)
+![Sass](https://img.shields.io/badge/style-Sass-CC6699?style=flat-square)
+[![Aiandra](https://img.shields.io/badge/autor-Aiandra-FA7343?style=flat-square)](https://www.linkedin.com/in/aiandralves/)
 
-## Code scaffolding
+</div>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+</p>
 
-## Build
+<a name="-project"></a>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## 💻 Projeto
 
-## Running unit tests
+<p align="justify">
+    Originsale é uma loja online de plantas. Desenvolvido com um designer elegante e ao mesmo tempo simples. Originsale é a melhor opção para se adquirir plantinhas de qualidade com o melhor atendimento e suporte.
+</p>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+<a name="-layout"></a>
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## 🎨 Layout
 
-## Further help
+### Tema Claro
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+<div align="center">
+    <img width="100%" src="src/assets/img/light.png" />
+</div>
+
+### Tema Escuro
+
+<div align="center">
+    <img width="100%" src="src/assets/img/dark.png" />
+</div>
+
+---
+
+<a name="-technologies"></a>
+
+## ⛏ Tecnologias
+
+Este projeto foi desenvolvido utilizando tecnologias de ponta de ponta.
+
+-   [TypeScript](https://www.typescriptlang.org/)
+-   [Angular](https://angular.io/)
+-   [SASS](https://sass-lang.com/)
+
+---
+
+<a name="-installation"></a>
+
+## 🚀 Instalação
+
+```bash
+# Clone o repositório
+$ git clone https://github.com/aiandralves/originsale
+
+# Entre na pasta do projeto
+$ cd originsale
+
+# Instale as dependências
+$ npm install / yarn install
+
+# Execute a aplicação
+$ npm start / ng serve
+
+# Abra http://localhost:4200 no seu navegador para ver a aplicação!
+
+```
+
+---
+
+<a name="-contribution"></a>
+
+## 🤝 Contribuição
+
+Faça um **fork** do repositório e se te ajudei de alguma forma, deixe uma 🌟
+
+---
+
+<a name="-license"></a>
+
+## 📝 License
+
+Esse projeto está sob a licença do MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
+
+<a name="-autor"></a>
+
+<p>
+ <sub> Feito com ❤ por Aiandra Alves Meira 🌟</strong></sub>
+</p>
+
+[![Linkedin Badge](https://img.shields.io/badge/-linkedin-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/aiandralves/)](https://www.linkedin.com/in/aiandralves/)

@@ -1,0 +1,102 @@
+@import '../../../../assets/theme.scss';
+
+/**---------- FAQs ---------**/
+.questions {
+    background: var(--color-lighten);
+}
+
+.questions-container {
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+
+    .questions-group {
+        display: grid;
+        row-gap: 1.5rem;
+    }
+
+    .questions-item {
+        background: var(--color-white);
+        border-radius: 0.25rem;
+        transition: 0.3s;
+
+        .item-title {
+            font-size: var(--font-small);
+            font-weight: 500;
+        }
+
+        .item-icon {
+            font-size: 1.25rem;
+            color: var(--color-title);
+        }
+
+        .questions-desc {
+            font-size: var(--font-smaller);
+            padding: 0 1.25rem 1.25rem 2.5rem;
+        }
+
+        .questions-header {
+            display: flex;
+            align-items: center;
+            column-gap: 0.5rem;
+            padding: 0.75rem 0.5rem;
+            cursor: pointer;
+        }
+
+        .questions-content {
+            overflow: hidden;
+            height: 0;
+        }
+
+        &:hover {
+            box-shadow: 0 2px 8px hsla(var(--hue), 4%, 15%, 0.15);
+        }
+    }
+}
+
+/**---------- Accordions ---------**/
+.accordion-open {
+    .questions-header,
+    .questions-content {
+        background: var(--color-main);
+    }
+
+    .item-title,
+    .questions-desc {
+        color: #fff;
+    }
+
+    .item-icon {
+        transform: rotate(45deg);
+        color: #fff !important;
+    }
+}
+
+/**---------- Media Screens ---------**/
+@media screen and (min-width: 767px) {
+    .questions-container {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: flex-start;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .questions-container {
+        padding: 1rem 0 4rem;
+
+        .questions-group {
+            row-gap: 2rem;
+
+            .questions-item {
+                .questions-header {
+                    padding: 1rem;
+                }
+                .questions-desc {
+                    padding: 0.5rem 3.5rem 2.25rem 2.75rem;
+                }
+            }
+        }
+    }
+    .questions-title {
+        text-align: initial;
+    }
+}

@@ -1,0 +1,108 @@
+@import '../../../../assets/theme.scss';
+
+/**---------- Products ---------**/
+.product-desc {
+    text-align: center;
+}
+
+.product-container {
+    padding: 3rem 0;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem 3rem;
+}
+
+.product-card {
+    display: grid;
+    position: relative;
+
+    .product-img {
+        position: relative;
+        width: 120px;
+        justify-self: center;
+        margin-bottom: 0.75rem;
+        transition: 0.3s;
+    }
+
+    .product-title,
+    .product-price {
+        font-size: var(--font-small);
+        font-weight: 600;
+        color: var(--color-title);
+    }
+
+    .product-title {
+        margin-bottom: 0.25rem;
+    }
+
+    .product-btn {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background: var(--color-main);
+        color: #fff;
+        padding: 0.25rem;
+        border-radius: 0.25rem;
+        font-size: 1.15rem;
+
+        &:hover {
+            background: var(--color-alt);
+        }
+    }
+
+    .product-circle {
+        width: 90px;
+        height: 90px;
+        background: var(--color-lighten);
+        border-radius: 50%;
+        position: absolute;
+        top: 18%;
+        left: 5%;
+    }
+
+    &:hover .product-img {
+        transform: translateY(0.5rem);
+    }
+}
+
+/**---------- Media Screens ---------**/
+@media screen and (max-width: 320px) {
+    .product-container {
+        grid-template-columns: 0.6fr;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .product-desc {
+        padding: 0 4rem;
+    }
+    .product-container {
+        grid-template-columns: repeat(2, 170px);
+        justify-content: center;
+        column-gap: 5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .product-container {
+        padding: 4rem 0;
+        grid-template-columns: repeat(3, 185px);
+        gap: 4rem 6rem;
+    }
+    .product-desc {
+        padding: 0 16rem;
+    }
+    .product-card {
+        .product-img {
+            width: 160px;
+        }
+        .product-circle {
+            width: 110px;
+            height: 110px;
+        }
+        .product-title,
+        .product-price {
+            font-size: var(--font-normal);
+        }
+    }
+}

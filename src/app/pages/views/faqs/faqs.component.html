@@ -1,0 +1,24 @@
+<section class="questions section" id="faqs">
+    <h2 class="section-title text-center container questions-title">
+        Dúvidas frequentes solicitadas <br> pelos clientes
+    </h2>
+
+    <div class="questions-container container grid">
+        <div *ngFor="let faq of faqs" class="questions-group">
+            <div class="questions-item">
+                <header class="questions-header">
+                    <i class="ri-add-line item-icon"></i>
+                    <h3 class="item-title">
+                        {{ faq.question }}
+                    </h3>
+                </header>
+
+                <div class="questions-content">
+                    <p class="questions-desc">
+                        {{ faq.response }}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

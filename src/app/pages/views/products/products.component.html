@@ -1,0 +1,25 @@
+<section class="product section container" id="products">
+    <h2 class="section-title text-center">
+        Confira nossos <br> produtos
+    </h2>
+
+    <p class="product-desc">
+        Aqui estão algumas plantas selecionadas com muito amor, todas em excelente
+        forma e tem uma longa vida útil. Compre e desfrute da melhor qualidade.
+    </p>
+
+    <div class="product-container grid">
+        <article *ngFor="let product of products" class="product-card">
+            <div class="product-circle"></div>
+
+            <img src="assets/img/products/{{ product.image }}" alt="plant" class="product-img">
+
+            <h3 class="product-title">{{ product.name }}</h3>
+            <span class="product-price">{{ product.price | currency: 'BRL' }}</span>
+
+            <button class="btn-flex product-btn">
+                <i class="ri-shopping-bag-line"></i>
+            </button>
+        </article>
+    </div>
+</section>

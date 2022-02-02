@@ -1,0 +1,55 @@
+@import '../../../../assets/theme.scss';
+
+/**---------- About ---------**/
+.about-container {
+    row-gap: 2rem;
+}
+
+.about-img {
+    width: 300px;
+    justify-self: center;
+}
+
+.about-desc {
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.about-details {
+    display: grid;
+    row-gap: 1rem;
+    margin-bottom: 2.5rem;
+
+    .detail-desc {
+        display: inline-flex;
+        column-gap: 0.5rem;
+        font-size: var(--font-small);
+
+        .about-icon {
+            font-size: 1rem;
+            color: var(--color-main);
+            vertical-align: middle;
+            margin-top: 0.15rem;
+        }
+    }
+}
+
+/**---------- Media Screens ---------**/
+@media screen and (min-width: 767px) {
+    .about-container {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .about-img {
+        width: 380px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .about-container {
+        column-gap: 7rem;
+    }
+}

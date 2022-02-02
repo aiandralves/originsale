@@ -1,0 +1,36 @@
+@import '../../../../assets/theme.scss';
+
+/**---------- Scroll Up ----------**/
+.scrollup {
+    position: fixed;
+    background: var(--color-main);
+    right: 1rem;
+    bottom: -30%;
+    display: inline-flex;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    z-index: 10;
+    opacity: 0.8;
+    transition: 0.4s;
+
+    &:hover {
+        background: var(--color-alt);
+        opacity: 1;
+    }
+
+    i {
+        font-size: 1rem;
+        color: #fff;
+    }
+}
+
+.show-scroll {
+    bottom: 3rem;
+}
+
+/**---------- Media Screens ---------**/
+@media screen and (min-width: 1200px) {
+    .scrollup {
+        right: 3rem;
+    }
+}
