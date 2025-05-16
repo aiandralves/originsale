@@ -10,18 +10,18 @@
 ![Angular](https://img.shields.io/badge/web-Angular-c3002f?style=flat-square)
 ![TypeScript](https://img.shields.io/badge/back-TypeScript-007ACC?style=flat-square)
 ![Sass](https://img.shields.io/badge/style-Sass-CC6699?style=flat-square)
-[![Aiandra](https://img.shields.io/badge/autor-Aiandra-FA7343?style=flat-square)](https://www.linkedin.com/in/aiandralves/)
+[![Aiandra](https://img.shields.io/badge/autor-Aiandra-FA7343?style=flat-square)](https://www.aiandralves.com/)
+[![Linkedin Badge](https://img.shields.io/badge/-linkedin-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/aiandralves/)](https://www.linkedin.com/in/aiandralves/)
 
 </div>
 
-</p>
-
-<a name="-project"></a>
+<a name="-projeto"></a>
 
 ## 💻 Projeto
 
 <p align="justify">
-    Originsale é uma loja online de plantas. Desenvolvido com um designer elegante e ao mesmo tempo simples. Originsale é a melhor opção para se adquirir plantinhas de qualidade com o melhor atendimento e suporte.
+    Landing page criada para uma loja fictícia de plantas e jardinagem, com foco em produtos naturais e bem-estar. O projeto adota uma estética clean, minimalista e amigável, com uso de tons verdes suaves, tipografia moderna e layout espaçado que transmite     
+    tranquilidade e sustentabilidade.
 </p>
 
 ---
@@ -48,11 +48,32 @@
 
 ## ⛏ Tecnologias
 
-Este projeto foi desenvolvido utilizando tecnologias de ponta de ponta.
+<img 
+    align="left" 
+    alt="Angular"
+    title="Angular" 
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="SASS" 
+    title="SASS"
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" 
+/>
+<img 
+    align="left" 
+    alt="TypeScript"
+    title="TypeScript" 
+    width="30px" 
+    style="padding-right: 10px;" 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" 
+/>
 
--   [TypeScript](https://www.typescriptlang.org/)
--   [Angular](https://angular.io/)
--   [SASS](https://sass-lang.com/)
+<br/>
 
 ---
 
@@ -97,8 +118,4 @@ Esse projeto está sob a licença do MIT. Veja o arquivo [LICENSE](LICENSE.md) p
 
 <a name="-autor"></a>
 
-<p>
- <sub> Feito com ❤ por Aiandra Alves Meira 🌟</strong></sub>
-</p>
-
-[![Linkedin Badge](https://img.shields.io/badge/-linkedin-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/aiandralves/)](https://www.linkedin.com/in/aiandralves/)
+Feito com ❤ por Aiandra Meira 🌟 &nbsp;[Portfólio Pessoal](https://aiandralves.com.br)
